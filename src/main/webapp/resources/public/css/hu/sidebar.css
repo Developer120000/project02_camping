@@ -1,0 +1,55 @@
+*{box-sizing: border-box;
+    margin: 0px; 
+    padding: 0px;
+}
+
+.container{
+	width: 100%;
+}
+
+.sideMenu {
+	
+    float: left;
+    width: 20%; 
+    max-width: 250px; 
+    min-height: 100vh; 
+    border-right: 2px solid gainsboro;
+  background-color: black;
+}
+
+.alist{
+  display: block;
+/*   color:gainsboro; */
+    padding: 1rem 0; 
+   letter-spacing: 2px;
+   font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.alistul{
+	list-style: none;
+}
+.nolist{
+  padding: 2rem;
+}
+.sideMenu ul {
+ margin: 14rem 2rem;
+   white-space: nowrap;
+}
+
+
+a {
+    
+}
+
+#sidebar{
+	position: fixed;
+	background-color: #d7d7d7;
+  transform: translateX(-10rem);
+   transition: transform 0.3s ease;
+}
+
+#sidebar:hover{
+  transform: translateX(0);
+}
